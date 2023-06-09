@@ -123,7 +123,7 @@ function! ARsync(direction)
                     \ })
         " TODO: handle errors
     else
-        echoerr 'Could not locate a .vim-arsync configuration file. Aborting...'
+        echo 'Could not locate a .vim-arsync configuration file. Aborting...'
     endif
 endfunction
 
